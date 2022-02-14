@@ -1,5 +1,5 @@
 import NextCors from 'nextjs-cors';
-function handler(req, res) {
+async function handler(req, res) {
     
     await NextCors(req, res, {
       // Options
